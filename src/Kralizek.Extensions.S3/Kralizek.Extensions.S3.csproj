@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <PackageId>Kralizek.Extensions.S3</PackageId>
+    <AssemblyName>Kralizek.Extensions.S3</AssemblyName>
+    <PackageVersion>0.1.0</PackageVersion>
+    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
+    <Authors>Renato Golia</Authors>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.3.0" />
+  </ItemGroup>
+
+</Project>
